@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Family Timeline · Privacy policy</title>
+<link rel="icon" href="favicon.png">
 <meta name="description" content="What Family Timeline stores, who can see it, and how to delete it.">
 <style>
   :root {
@@ -22,11 +23,7 @@
   }
   main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
   header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
-  .logo {
-    width: 56px; height: 56px; border-radius: 14px; flex: none;
-    background: linear-gradient(135deg, #ff9d6c, #d2456f);
-    display: grid; place-items: center;
-  }
+  .logo { width: 64px; height: 64px; flex: none; }
   h1 { font-size: 30px; line-height: 1.2; margin: 0; }
   .updated { color: var(--muted); margin: 4px 0 24px; }
   nav a { color: var(--accent); font-weight: 600; margin-right: 16px; }
@@ -45,19 +42,13 @@
 <body>
 <main>
   <header>
-    <div class="logo" aria-hidden="true">
-      <svg width="34" height="34" viewBox="0 0 100 100" fill="#fff">
-        <circle cx="50" cy="30" r="17"/><circle cx="33" cy="40" r="13"/><circle cx="67" cy="40" r="13"/>
-        <circle cx="39" cy="24" r="11"/><circle cx="61" cy="24" r="11"/><circle cx="50" cy="46" r="11"/>
-        <rect x="45.5" y="45" width="9" height="38" rx="4.5"/><rect x="22" y="81.5" width="56" height="5" rx="2.5"/>
-      </svg>
-    </div>
+    <img class="logo" src="icon.png" alt="" width="64" height="64">
     <h1>Family Timeline<br><span style="font-size:20px;color:var(--muted)">Privacy policy</span></h1>
   </header>
   <p class="updated">Last updated: 28 September 2026</p>
-  <nav><a href="#english">English</a><a href="#mongolian">Монгол</a><a href="#delete">Delete your data</a></nav>
+  <nav><a href="#delete">Delete your data</a></nav>
 
-  <section id="english">
+  <section>
     <p>Family Timeline is an app for keeping a family's history together: a shared timeline of memories and a family tree. This policy explains what the app stores, who can see it, and how to delete it.</p>
 
     <h2>What the app stores</h2>
@@ -92,41 +83,6 @@
     <p>If this policy changes, the date above changes too. Questions: <a href="mailto:tuvshintulga21@gmail.com">tuvshintulga21@gmail.com</a></p>
   </section>
 
-  <section id="mongolian" lang="mn">
-    <h2>Нууцлалын бодлого</h2>
-    <p>Family Timeline бол гэр бүлийн түүхийг хамтдаа хадгалах апп юм: дурсамжийн нийтлэг цагийн хэлхээс, ургийн мод. Энэ бодлого апп юу хадгалдаг, хэн харж болох, яаж устгахыг тайлбарлана.</p>
-
-    <h3>Апп юу хадгалдаг вэ</h3>
-    <ul>
-      <li><strong>Та болон гэр бүлийнхний тань нэмсэн зүйлс:</strong> ургийн модны хүмүүс (нэр, хүйс, төрсөн болон нас барсан огноо, товч намтар, зураг, хэн хэний эцэг эх, хань вэ) ба дурсамжууд (гарчиг, түүх, огноо, зураг, хэн хуваалцсан).</li>
-      <li><strong>Төхөөрөмж бүрийн нэвтрэлт:</strong> апп анх онлайн болоход төхөөрөмж нэрээ нууцалсан бүртгэл авна. <strong>И-мэйл, утасны дугаар, нууц үг огт шаардлагагүй.</strong> Энэ бүртгэл нь төхөөрөмж аль гэр бүлд, ургийн модны аль хүн болохыг л тэмдэглэнэ.</li>
-      <li>Хамаатан саднаа урихад үүсгэсэн <strong>урилгын код</strong>.</li>
-    </ul>
-    <p>Апп таны байршил, харилцагчид, зар сурталчилгааны ID, статистик цуглуулдаггүй бөгөөд зар харуулдаггүй.</p>
-
-    <h3>Хаана хадгалдаг вэ</h3>
-    <ul>
-      <li>Онлайнд манай хостинг үйлчилгээ <strong>Supabase</strong>-ийн Өмнөд Солонгосын Сөүл дэх сервер дээр. Бүх холболт шифрлэгдсэн (HTTPS).</li>
-      <li>Гэр бүл бүрийн бүрэн хуулбар тухайн гэр бүлийн гишүүдийн утас, компьютерт хадгалагдана, тиймээс апп интернэтгүй ч ажиллана.</li>
-    </ul>
-
-    <h3>Хэн харж болох вэ</h3>
-    <p>Гэр бүлийг зөвхөн тухайн гэр бүлийн гишүүд харна. Үүнийг апп биш, мэдээллийн сангийн аюулгүй байдлын дүрэм хамгаална. Бид таны мэдээллийг зардаггүй, өөр хэнтэй ч хуваалцдаггүй. Supabase зөвхөн бидний өмнөөс хадгалдаг.</p>
-
-    <h3>Хүүхдүүд</h3>
-    <p>Ургийн модонд ихэвчлэн эцэг эх, хамаатан саднынхаа нэмсэн хүүхдүүд байдаг. Апп нь 13-аас доош насны хүүхдэд зориулагдаагүй.</p>
-
-    <h3>Мэдээллээ устгах</h3>
-    <ul>
-      <li><strong>Гэр бүлээс гарах:</strong> гэр бүлийн нэр дээр дараад → <em>Энэ гэр бүлээс гарах</em>. Хэрэв та сүүлчийн гишүүн байсан бол гэр бүл бүх дурсамж, зурагтайгаа устана.</li>
-      <li><strong>Бүртгэлээ устгах:</strong> өөрийн хуудсан дээр <em>⋮ → Бүртгэлээ устгах</em>. Та бүх гэр бүлээсээ гарч, бүртгэл тань устана. Бусад гишүүнтэй гэр бүлд таны хуваалцсан зүйлс тэдний түүхийн хэсэг болж үлдэнэ; дурсамж, хүнийг аль ч гишүүн аппаас устгаж болно. Зөвхөн таныг байсан гэр бүл бүрэн устана.</li>
-      <li><strong>Аппгүйгээр:</strong> <a href="mailto:tuvshintulga21@gmail.com">tuvshintulga21@gmail.com</a> хаягаар гэр бүлийн нэр, өөрийн нэрээ бичиж илгээвэл бид 30 хоногийн дотор устгана.</li>
-    </ul>
-    <p>Мэдээлэл дээрх байдлаар устгагдах хүртэл хадгалагдана.</p>
-
-    <h3>Өөрчлөлт, холбоо барих</h3>
-    <p>Энэ бодлого өөрчлөгдвөл дээрх огноо шинэчлэгдэнэ. Асуулт: <a href="mailto:tuvshintulga21@gmail.com">tuvshintulga21@gmail.com</a></p>
-  </section>
 </main>
 </body>
 </html>
